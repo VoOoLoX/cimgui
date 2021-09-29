@@ -4826,14 +4826,14 @@ CIMGUI_API void igImFontAtlasBuildMultiplyRectAlpha8(const unsigned char table[2
 {
     return ImFontAtlasBuildMultiplyRectAlpha8(table,pixels,x,y,w,h,stride);
 }
-CIMGUI_API const ImFontBuilderIO* ImGuiFreeType_GetBuilderForFreeType()
-{
-    return ImGuiFreeType::GetBuilderForFreeType();
-}
-CIMGUI_API void ImGuiFreeType_SetAllocatorFunctions(void*(*alloc_func)(size_t sz,void* user_data),void(*free_func)(void* ptr,void* user_data),void* user_data)
-{
-    return ImGuiFreeType::SetAllocatorFunctions(alloc_func,free_func,user_data);
-}
+//CIMGUI_API const ImFontBuilderIO* ImGuiFreeType_GetBuilderForFreeType()
+//{
+//    return ImGuiFreeType::GetBuilderForFreeType();
+//}
+//CIMGUI_API void ImGuiFreeType_SetAllocatorFunctions(void*(*alloc_func)(size_t sz,void* user_data),void(*free_func)(void* ptr,void* user_data),void* user_data)
+//{
+//    return ImGuiFreeType::SetAllocatorFunctions(alloc_func,free_func,user_data);
+//}
 
 
 
